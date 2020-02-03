@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UQy-Bb-fNb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Y7W-2g-HhO">
+            <objects>
+                <viewController id="UQy-Bb-fNb" customClass="ViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="78Z-Gh-hcA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DyS-Bu-cZO">
+                                <rect key="frame" x="28" y="262" width="160" height="160"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="kBX-5Y-7lj">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="160" id="plM-Ck-8tz">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="245"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <state key="normal" title="Ans1">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dBm-fe-uPa">
+                                <rect key="frame" x="226" y="262" width="160" height="160"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="9U0-vi-0ej">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="160" id="HYW-5S-O1j">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="245"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <state key="normal" title="Ans2">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="B10-XL-pPo">
+                                <rect key="frame" x="226" y="460" width="160" height="160"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="9Ob-OL-23Z"/>
+                                    <constraint firstAttribute="height" constant="160" id="Sc6-jX-ZAl">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="160" id="dD4-2R-TsM">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="245"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="245" id="mqX-Q8-Yxh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <state key="normal" title="Ans4">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9Ob-OL-23Z"/>
+                                        <exclude reference="mqX-Q8-Yxh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="9Ob-OL-23Z"/>
+                                        <exclude reference="mqX-Q8-Yxh"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="S4v-CA-pqV">
+                                <rect key="frame" x="28" y="658" width="160" height="160"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="9lI-AA-tRS">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="245"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="160" id="MV1-E5-Fmu">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <state key="normal" title="Ans5">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iHB-Ji-4B0">
+                                <rect key="frame" x="226" y="658" width="160" height="160"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="XYZ-W2-wSz">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="160" id="tmO-2z-PoA">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="245"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <state key="normal" title="Ans6">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="k7u-Kg-Z5A">
+                                <rect key="frame" x="28" y="460" width="160" height="160"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="C8P-KE-8aP">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="160" id="e1B-DV-11K">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="245"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <state key="normal" title="Ans3">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What kind of question will this be?" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="WfN-L1-5uZ">
+                                <rect key="frame" x="28" y="99" width="358" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="1NO-y5-dJP">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="776"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="155" id="LDZ-at-Kbz">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="88"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="S4v-CA-pqV" firstAttribute="centerY" secondItem="78Z-Gh-hcA" secondAttribute="centerY" constant="290" id="4FU-97-TFn">
+                                <variation key="heightClass=compact-widthClass=regular" constant="126"/>
+                            </constraint>
+                            <constraint firstItem="k7u-Kg-Z5A" firstAttribute="top" secondItem="DyS-Bu-cZO" secondAttribute="bottom" constant="38" id="Bqs-kX-xVd">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
+                            </constraint>
+                            <constraint firstItem="k7u-Kg-Z5A" firstAttribute="centerX" secondItem="78Z-Gh-hcA" secondAttribute="centerX" constant="-99" id="CRt-Lb-ofe">
+                                <variation key="heightClass=compact-widthClass=regular" constant="265.5"/>
+                            </constraint>
+                            <constraint firstItem="B10-XL-pPo" firstAttribute="top" secondItem="dBm-fe-uPa" secondAttribute="bottom" constant="38" id="GS0-Eu-Izz">
+                                <variation key="heightClass=compact-widthClass=regular" constant="26"/>
+                            </constraint>
+                            <constraint firstItem="dBm-fe-uPa" firstAttribute="leading" secondItem="DyS-Bu-cZO" secondAttribute="trailing" constant="38" id="HN8-Cr-sVF">
+                                <variation key="heightClass=compact-widthClass=regular" constant="21"/>
+                            </constraint>
+                            <constraint firstItem="WfN-L1-5uZ" firstAttribute="centerY" secondItem="78Z-Gh-hcA" secondAttribute="centerY" constant="-271.5" id="HYX-oi-xbz">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-143"/>
+                            </constraint>
+                            <constraint firstItem="iHB-Ji-4B0" firstAttribute="leading" secondItem="S4v-CA-pqV" secondAttribute="trailing" constant="38" id="JgF-kP-LBJ">
+                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="k7u-Kg-Z5A" firstAttribute="centerY" secondItem="78Z-Gh-hcA" secondAttribute="centerY" constant="92" id="Pdn-Tm-4yS">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-19"/>
+                            </constraint>
+                            <constraint firstItem="WfN-L1-5uZ" firstAttribute="centerX" secondItem="78Z-Gh-hcA" secondAttribute="centerX" id="Q2J-jY-93M"/>
+                            <constraint firstItem="dBm-fe-uPa" firstAttribute="centerY" secondItem="78Z-Gh-hcA" secondAttribute="centerY" constant="-106" id="Uvs-H9-zXO">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-20"/>
+                            </constraint>
+                            <constraint firstItem="S4v-CA-pqV" firstAttribute="centerX" secondItem="78Z-Gh-hcA" secondAttribute="centerX" constant="-99" id="ZDc-3d-CRI">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.5"/>
+                            </constraint>
+                            <constraint firstItem="iHB-Ji-4B0" firstAttribute="top" secondItem="B10-XL-pPo" secondAttribute="bottom" constant="38" id="lYV-yd-qUz">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
+                            </constraint>
+                            <constraint firstItem="B10-XL-pPo" firstAttribute="centerY" secondItem="78Z-Gh-hcA" secondAttribute="centerY" constant="92" id="osW-p5-VDd">
+                                <variation key="heightClass=compact-widthClass=regular" constant="126"/>
+                            </constraint>
+                            <constraint firstItem="B10-XL-pPo" firstAttribute="leading" secondItem="k7u-Kg-Z5A" secondAttribute="trailing" constant="38" id="pJ7-E8-9RO">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-776"/>
+                            </constraint>
+                            <constraint firstItem="S4v-CA-pqV" firstAttribute="top" secondItem="k7u-Kg-Z5A" secondAttribute="bottom" constant="38" id="pwy-Zf-wne">
+                                <variation key="heightClass=compact-widthClass=regular" constant="25"/>
+                            </constraint>
+                            <constraint firstItem="DyS-Bu-cZO" firstAttribute="centerY" secondItem="78Z-Gh-hcA" secondAttribute="centerY" constant="-106" id="qV8-Az-Em1">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-19"/>
+                            </constraint>
+                            <constraint firstItem="dBm-fe-uPa" firstAttribute="centerX" secondItem="78Z-Gh-hcA" secondAttribute="centerX" constant="99" id="rg0-Uh-hE6">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.5"/>
+                            </constraint>
+                            <constraint firstItem="iHB-Ji-4B0" firstAttribute="centerY" secondItem="78Z-Gh-hcA" secondAttribute="centerY" constant="290" id="s6n-SO-U6u">
+                                <variation key="heightClass=compact-widthClass=regular" constant="126"/>
+                            </constraint>
+                            <constraint firstItem="B10-XL-pPo" firstAttribute="centerX" secondItem="78Z-Gh-hcA" secondAttribute="centerX" constant="99" id="xcM-Cv-JqN">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-265.5"/>
+                            </constraint>
+                            <constraint firstItem="iHB-Ji-4B0" firstAttribute="centerX" secondItem="78Z-Gh-hcA" secondAttribute="centerX" constant="99" id="z4d-e2-opb">
+                                <variation key="heightClass=compact-widthClass=regular" constant="265.5"/>
+                            </constraint>
+                            <constraint firstItem="DyS-Bu-cZO" firstAttribute="centerX" secondItem="78Z-Gh-hcA" secondAttribute="centerX" constant="-99" id="zio-Ha-pM0">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-265.5"/>
+                            </constraint>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aNy-YR-M66"/>
+                    </view>
+                    <connections>
+                        <outlet property="Ans1" destination="DyS-Bu-cZO" id="TzP-am-W93"/>
+                        <outlet property="Ans2" destination="dBm-fe-uPa" id="96p-p1-SPg"/>
+                        <outlet property="Ans3" destination="k7u-Kg-Z5A" id="wh6-a3-Pqx"/>
+                        <outlet property="Ans4" destination="B10-XL-pPo" id="4Hv-D6-Irk"/>
+                        <outlet property="Ans5" destination="S4v-CA-pqV" id="o1Z-Aq-Cku"/>
+                        <outlet property="Ans6" destination="iHB-Ji-4B0" id="dz2-s8-NNd"/>
+                        <outlet property="QuestionLabel" destination="WfN-L1-5uZ" id="Bmk-uH-95s"/>
+                        <outletCollection property="buttonArray" destination="DyS-Bu-cZO" collectionClass="NSMutableArray" id="9xB-E6-8tl"/>
+                        <outletCollection property="buttonArray" destination="B10-XL-pPo" collectionClass="NSMutableArray" id="k1Z-o1-BBU"/>
+                        <outletCollection property="buttonArray" destination="dBm-fe-uPa" collectionClass="NSMutableArray" id="T5K-0g-dma"/>
+                        <outletCollection property="buttonArray" destination="S4v-CA-pqV" collectionClass="NSMutableArray" id="RkP-Ry-0U3"/>
+                        <outletCollection property="buttonArray" destination="k7u-Kg-Z5A" collectionClass="NSMutableArray" id="lfC-5M-qdx"/>
+                        <outletCollection property="buttonArray" destination="iHB-Ji-4B0" collectionClass="NSMutableArray" id="vxg-YK-ILz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXH-jz-Hdv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4042.6339285714284" y="-3423.1884057971015"/>
+        </scene>
+    </scenes>
+</document>
