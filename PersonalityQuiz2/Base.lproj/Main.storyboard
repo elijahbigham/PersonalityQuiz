@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="Y7W-2g-HhO">
             <objects>
-                <viewController id="UQy-Bb-fNb" customClass="ViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UQy-Bb-fNb" customClass="ViewController" customModule="TestPersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="78Z-Gh-hcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,6 +30,9 @@
                                 <state key="normal" title="Ans1">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonPressWithSender:" destination="UQy-Bb-fNb" eventType="touchUpInside" id="Vuv-eg-eVJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dBm-fe-uPa">
                                 <rect key="frame" x="226" y="262" width="160" height="160"/>
@@ -46,6 +49,9 @@
                                 <state key="normal" title="Ans2">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonPressWithSender:" destination="UQy-Bb-fNb" eventType="touchUpInside" id="fDq-dT-M0b"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="B10-XL-pPo">
                                 <rect key="frame" x="226" y="460" width="160" height="160"/>
@@ -76,6 +82,9 @@
                                         <exclude reference="mqX-Q8-Yxh"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="buttonPressWithSender:" destination="UQy-Bb-fNb" eventType="touchUpInside" id="R0K-KR-x2V"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="S4v-CA-pqV">
                                 <rect key="frame" x="28" y="658" width="160" height="160"/>
@@ -92,6 +101,9 @@
                                 <state key="normal" title="Ans5">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonPressWithSender:" destination="UQy-Bb-fNb" eventType="touchUpInside" id="KnJ-yj-fPl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iHB-Ji-4B0">
                                 <rect key="frame" x="226" y="658" width="160" height="160"/>
@@ -108,6 +120,9 @@
                                 <state key="normal" title="Ans6">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonPressWithSender:" destination="UQy-Bb-fNb" eventType="touchUpInside" id="9AS-5k-WPV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="k7u-Kg-Z5A">
                                 <rect key="frame" x="28" y="460" width="160" height="160"/>
@@ -124,6 +139,9 @@
                                 <state key="normal" title="Ans3">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonPressWithSender:" destination="UQy-Bb-fNb" eventType="touchUpInside" id="mzs-90-fQM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What kind of question will this be?" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="WfN-L1-5uZ">
                                 <rect key="frame" x="28" y="99" width="358" height="155"/>
