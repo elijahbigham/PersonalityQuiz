@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  PersonalityQuiz2
-//
-//  Created by Elijah Bigham (student HH) on 2/3/20.
-//  Copyright © 2020 Bigham, Elijah. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
