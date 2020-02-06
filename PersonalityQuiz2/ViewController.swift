@@ -169,60 +169,60 @@ class ViewController: UIViewController {
                   outcomes(name: "Coconut", num: 0)]
         
         questArr = [questions(questionText: "What type of person are you?",                         //Question 1
-                   ans: [answers(text: "Sweet", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
-                         answers(text: "Salty", values: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]),
-                         answers(text: "Sour", values: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
-                         answers(text: "Spicy", values: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]),
-                         answers(text: "Bitter", values: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]),
-                         answers(text: "Savory", values: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0])]),
+                   ans: [answers(text: "Sweet", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), //each array has 21 different options -- 1:1 correspondance between the answers to questions
+                         answers(text: "Salty", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                         answers(text: "Sour", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                         answers(text: "Spicy", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                         answers(text: "Bitter", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                         answers(text: "Savory", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]),
                     
                     questions(questionText: "Describe your hair.",                                  //Question 2
-                    ans: [answers(text: "Bald", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]),
-                          answers(text: "Busz cut", values: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]),
-                          answers(text: "Short", values: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
-                          answers(text: "Long", values: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]),
-                          answers(text: "Messy", values: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]),
-                          answers(text: "Neat", values: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0])]),
+                    ans: [answers(text: "Bald", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Busz cut", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Short", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Long", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Messy", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Neat", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]),
                     
                     questions(questionText: "What is your body type?",                              //Question 3
-                    ans: [answers(text: "Skinny", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]),
-                          answers(text: "Thicc", values: [100, 0, 0, 0, 0, 0, 0, 0, 1, 0]),
-                          answers(text: "Fat", values: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
-                          answers(text: "Muscular", values: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]),
-                          answers(text: "Big boned", values: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]),
-                          answers(text: "Swol", values: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0])]),
+                    ans: [answers(text: "Skinny", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Thicc", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Fat", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Muscular", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Big boned", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Swol", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]),
                     
                     questions(questionText: "What is your favorite color?",                         //Question 4
-                    ans: [answers(text: "Red", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]),
-                          answers(text: "Orange", values: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]),
-                          answers(text: "Yellow", values: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
-                          answers(text: "Green", values: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]),
-                          answers(text: "Blue", values: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]),
-                          answers(text: "Purple", values: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0])]),
+                    ans: [answers(text: "Red", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Orange", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Yellow", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Green", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Blue", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Purple", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]),
                     
                     questions(questionText: "What do you typically do on weekends?",                //Question 5
-                    ans: [answers(text: "Work out", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]),
-                          answers(text: "Play video games", values: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]),
-                          answers(text: "Sleep", values: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
-                          answers(text: "Hang out with friends", values: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]),
-                          answers(text: "Drink", values: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]),
-                          answers(text: "Watch TV", values: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0])]),
+                    ans: [answers(text: "Work out", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Play video games", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Sleep", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Hang out with friends", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Drink", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Watch TV", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]),
                     
                     questions(questionText: "Which of the following smells the best?",              //Question 6
-                    ans: [answers(text: "Fire", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]),
-                          answers(text: "Fresh air", values: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]),
-                          answers(text: "New car", values: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
-                          answers(text: "Flowers", values: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]),
-                          answers(text: "Buttered popcorn", values: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]),
-                          answers(text: "Cotton candy", values: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0])]),
+                    ans: [answers(text: "Fire", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Fresh air", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "New car", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Flowers", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Buttered popcorn", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Cotton candy", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]),
                     
                     questions(questionText: "Which of these hurt the most?",                        //Question 7
-                    ans: [answers(text: "Acid", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]),
-                          answers(text: "Second place", values: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]),
-                          answers(text: "Optionals", values: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
-                          answers(text: "Loosing streaks", values: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]),
-                          answers(text: "Migrains", values: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]),
-                          answers(text: "Testicular Torsion", values: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0])]),
+                    ans: [answers(text: "Acid", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Second place", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Optionals", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Loosing streaks", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Migrains", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+                          answers(text: "Testicular Torsion", values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]),
             
                     ]
     }
