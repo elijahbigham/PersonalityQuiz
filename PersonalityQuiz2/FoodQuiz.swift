@@ -65,7 +65,7 @@ class FoodQuiz : Quiz{
         
         questions = [Question(text: "What type of person are you?",
                               ans: [Answer(text: "Sweet",
-                                           values: [FoodOutcomes.pear: 2]),
+                                           values: [FoodOutcomes.pear: 0]),
                                     Answer(text: "Salty",
                                            values: [:]),
                                     Answer(text: "Sour",
@@ -156,8 +156,6 @@ class FoodQuiz : Quiz{
                                            values: [:])]),
                     Question(text: "How would you describe your hands?",
                                 ans: [Answer(text: "Large",
-                                             values: [:]),
-                                      Answer(text: "Small",
                                              values: [:]),
                                       Answer(text: "Calloused",
                                              values: [:]),
