@@ -153,6 +153,20 @@ class FoodQuiz : Quiz{
                                     Answer(text: "Migrains",
                                            values: [:]),
                                     Answer(text: "Testicular Torsion",
-                                           values: [:])])]
+                                           values: [:])]),
+                    Question(text: "How would you describe your hands?",
+                                ans: [Answer(text: "Large",
+                                             values: [:]),
+                                      Answer(text: "Small",
+                                             values: [:]),
+                                      Answer(text: "Calloused",
+                                             values: [:]),
+                                      Answer(text: "Good",
+                                             values: [:]),
+                                      Answer(text: "Veiny",
+                                             values: [:]),
+                                      Answer(text: "Deformed",
+                                             values: [:])])
+                    ]
     }
 }
