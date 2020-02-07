@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512F8B6E23EDA7AA00869B85 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */; };
 		51A4093D23E86523001A6974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4093C23E86523001A6974 /* AppDelegate.swift */; };
 		51A4093F23E86523001A6974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4093E23E86523001A6974 /* SceneDelegate.swift */; };
 		51A4094123E86523001A6974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4094023E86523001A6974 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
 		51A4093923E86523001A6974 /* PersonalityQuiz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A4093C23E86523001A6974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51A4093E23E86523001A6974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				51A4093C23E86523001A6974 /* AppDelegate.swift */,
 				51A4093E23E86523001A6974 /* SceneDelegate.swift */,
 				51A4094023E86523001A6974 /* ViewController.swift */,
+				512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */,
 				51A4094223E86523001A6974 /* Main.storyboard */,
 				51A4094523E86524001A6974 /* Assets.xcassets */,
 				51A4094723E86524001A6974 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512F8B6E23EDA7AA00869B85 /* EndScreenViewController.swift in Sources */,
 				51A4094123E86523001A6974 /* ViewController.swift in Sources */,
 				51A4093D23E86523001A6974 /* AppDelegate.swift in Sources */,
 				C341BF9223EC583500E52B02 /* FoodQuiz.swift in Sources */,

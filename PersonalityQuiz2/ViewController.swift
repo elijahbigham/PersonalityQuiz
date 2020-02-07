@@ -113,6 +113,7 @@ class ViewController: UIViewController {
             if(questionNumber < shunt.numQuestions()){
                 shunt.press(question: questionNumber, sender: sender, buttons: buttonArray)
             }
+            
             else{
                 print("went over question limit, please pay 500 BuzzCoins for Questions XL package")
             }
@@ -123,6 +124,12 @@ class ViewController: UIViewController {
         
         //Adds 1 to the question number and calls update again
         questionNumber += 1
+        if let shunt = shint{
+            if (questionNumber == shunt.numQuestions()){
+               //let cell = tableView.cellForRow(at: indexPath)
+                performSegue(withIdentifier: "toEnd", sender: nil)
+            }
+        }
         update()
     }
     
