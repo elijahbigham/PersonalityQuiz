@@ -65,7 +65,7 @@ class FoodQuiz : Quiz{
         
         questions = [Question(text: "What type of person are you?",
                               ans: [Answer(text: "Sweet",
-                                           values: [FoodOutcomes.pear: 2]),
+                                           values: [FoodOutcomes.pear: 0]),
                                     Answer(text: "Salty",
                                            values: [:]),
                                     Answer(text: "Sour",
@@ -105,15 +105,15 @@ class FoodQuiz : Quiz{
                      Question(text: "What is your favorite color?",
                               ans: [Answer(text: "Red",
                                            values: [:]),
-                                    Answer(text: "Orange",
-                                           values: [:]),
                                     Answer(text: "Yellow",
                                            values: [:]),
-                                    Answer(text: "Green",
+                                    Answer(text: "Purple",
                                            values: [:]),
                                     Answer(text: "Blue",
                                            values: [:]),
-                                    Answer(text: "Purple",
+                                    Answer(text: "Green",
+                                           values: [:]),
+                                    Answer(text: "Orange",
                                            values: [:])]),
                      Question(text: "What do you typically do on weekends?",
                               ans: [Answer(text: "Work Out",
@@ -153,6 +153,18 @@ class FoodQuiz : Quiz{
                                     Answer(text: "Migrains",
                                            values: [:]),
                                     Answer(text: "Testicular Torsion",
-                                           values: [:])])]
+                                           values: [:])]),
+                    Question(text: "How would you describe your hands?",
+                                ans: [Answer(text: "Large",
+                                             values: [:]),
+                                      Answer(text: "Calloused",
+                                             values: [:]),
+                                      Answer(text: "Good",
+                                             values: [:]),
+                                      Answer(text: "Veiny",
+                                             values: [:]),
+                                      Answer(text: "Deformed",
+                                             values: [:])])
+                    ]
     }
 }

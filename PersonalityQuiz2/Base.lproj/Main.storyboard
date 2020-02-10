@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="Y7W-2g-HhO">
             <objects>
-                <viewController id="UQy-Bb-fNb" customClass="ViewController" customModule="TestPersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UQy-Bb-fNb" customClass="ViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="78Z-Gh-hcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,11 +238,28 @@
                         <outletCollection property="buttonArray" destination="S4v-CA-pqV" collectionClass="NSMutableArray" id="RkP-Ry-0U3"/>
                         <outletCollection property="buttonArray" destination="k7u-Kg-Z5A" collectionClass="NSMutableArray" id="lfC-5M-qdx"/>
                         <outletCollection property="buttonArray" destination="iHB-Ji-4B0" collectionClass="NSMutableArray" id="vxg-YK-ILz"/>
+                        <segue destination="UkD-B7-8hN" kind="show" identifier="toEnd" id="OVZ-E0-9qB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXH-jz-Hdv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4042.6339285714284" y="-3423.1884057971015"/>
+        </scene>
+        <!--End Screen View Controller-->
+        <scene sceneID="rTD-4b-YJH">
+            <objects>
+                <viewController id="UkD-B7-8hN" customClass="EndScreenViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Bs-71-AcO" customClass="UILabel">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="idC-pn-rTR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UrE-Do-5XS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s6q-2F-oCk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3155" y="-3423"/>
         </scene>
     </scenes>
 </document>
