@@ -157,14 +157,16 @@ class FoodQuiz : Quiz{
                     Question(text: "How would you describe your hands?",
                                 ans: [Answer(text: "Large",
                                              values: q08ans.mapValues{$0[0]}),
-                                      Answer(text: "Calloused",
+                                      Answer(text: "Small",
                                              values: q08ans.mapValues{$0[1]}),
-                                      Answer(text: "Good",
+                                      Answer(text: "Calloused",
                                              values: q08ans.mapValues{$0[2]}),
-                                      Answer(text: "Veiny",
+                                      Answer(text: "Good",
                                              values: q08ans.mapValues{$0[3]}),
+                                      Answer(text: "Veiny",
+                                             values: q08ans.mapValues{$0[4]}),
                                       Answer(text: "Deformed",
-                                             values: q08ans.mapValues{$0[4]})])
+                                             values: q08ans.mapValues{$0[5]})])
                     ]
     }
     
