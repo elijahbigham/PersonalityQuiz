@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="Y7W-2g-HhO">
             <objects>
-                <viewController id="UQy-Bb-fNb" customClass="ViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UQy-Bb-fNb" customClass="ViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="78Z-Gh-hcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,6 +224,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aNy-YR-M66"/>
                     </view>
+                    <navigationItem key="navigationItem" id="SsU-4F-jDa"/>
                     <connections>
                         <outlet property="Ans1" destination="DyS-Bu-cZO" id="TzP-am-W93"/>
                         <outlet property="Ans2" destination="dBm-fe-uPa" id="96p-p1-SPg"/>
@@ -248,18 +249,37 @@
         <!--End Screen View Controller-->
         <scene sceneID="rTD-4b-YJH">
             <objects>
-                <viewController id="UkD-B7-8hN" customClass="EndScreenViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UkD-B7-8hN" customClass="EndScreenViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Bs-71-AcO" customClass="UILabel">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are..." textAlignment="center" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpi-VH-YOf">
+                                <rect key="frame" x="20" y="272" width="374" height="352"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Let-8B-V8K">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="UQy-Bb-fNb" kind="show" id="eXh-uF-Qth"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="idC-pn-rTR"/>
                     </view>
                     <navigationItem key="navigationItem" id="UrE-Do-5XS"/>
+                    <connections>
+                        <outlet property="identityLabel" destination="mpi-VH-YOf" id="tm6-TZ-2Ry"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s6q-2F-oCk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3155" y="-3423"/>
+            <point key="canvasLocation" x="-3155.072463768116" y="-3423.2142857142858"/>
         </scene>
     </scenes>
 </document>

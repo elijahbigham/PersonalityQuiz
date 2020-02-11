@@ -9,10 +9,13 @@
 import UIKit
 
 class EndScreenViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var identityLabel: UILabel!
+    var identity = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        identityLabel.text = "You are a \(identity)"
         // Do any additional setup after loading the view.
     }
     

@@ -131,12 +131,20 @@ class ViewController: UIViewController {
             }
         }
         update()
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        let end = segue.destination as! EndScreenViewController
+        if let shunt = shint{
+            end.identity = shunt.displayable()[0].0
+        }
+        
+        
     }
     
-    //QUIZES------------------------------------------------------------------------------------
     
 }
-
+//QUIZES----------------------------------------------------------------------------------
 class QuizShunt<T : Quiz> : Shunt{
     var quiz : T = T()
     
