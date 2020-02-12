@@ -345,4 +345,3 @@ class FoodQuiz : Quiz{
                                          FoodOutcomes.pizza:      [2,0,1,3,1,1],
                                          FoodOutcomes.coconut:    [1,0,5,1,2,-1]]
 }
-g
