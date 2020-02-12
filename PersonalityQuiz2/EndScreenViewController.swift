@@ -57,7 +57,7 @@ class EndScreenViewController: UIViewController {
             DescriptionLabel.text = "You try your best at everything, but sometimes things don't go so well."
         case "Waffle":
             DescriptionLabel.text = "You find pride in doing things right, even when things are laid out for you."
-        case "Triple Bacon Cheeseburger With a Side of Fries":
+        case "Triple Bacon Cheeseburger with a side of Fries":
             DescriptionLabel.text = "Mostly grumpy in character, but still don't want people to be hurt."
         case "Pizza":
             DescriptionLabel.text = "You appreciate consistancy and minimalist change. Starts projects, and has many ideas on how to finish"
