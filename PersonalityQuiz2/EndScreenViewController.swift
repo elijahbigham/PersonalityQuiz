@@ -10,13 +10,23 @@ import UIKit
 
 class EndScreenViewController: UIViewController {
     
+    var justification = ""
     
     @IBOutlet weak var identityLabel: UILabel!
     var identity = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         identityLabel.text = "You are a \(identity)"
-        // Do any additional setup after loading the view.
+        chooseDescription()
+    }
+    
+    func chooseDescription(){
+        switch identity {
+        case "Pear":
+            justification = "Thicc"
+        default:
+            justification = "Yeet"
+        }
     }
     
 
