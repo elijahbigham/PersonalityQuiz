@@ -11,6 +11,7 @@ import UIKit
 class EndScreenViewController: UIViewController {
     
     
+    @IBOutlet weak var DescriptionLabel: UILabel!
     @IBOutlet weak var identityLabel: UILabel!
     var identity = ""
     override func viewDidLoad() {
@@ -19,7 +20,6 @@ class EndScreenViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
     /*
     // MARK: - Navigation
 
