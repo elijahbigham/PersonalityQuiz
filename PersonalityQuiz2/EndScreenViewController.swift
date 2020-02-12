@@ -10,8 +10,6 @@ import UIKit
 
 class EndScreenViewController: UIViewController {
     
-    var justification = ""
-    
     @IBOutlet weak var DescriptionLabel: UILabel!
     @IBOutlet weak var identityLabel: UILabel!
     var identity = ""
@@ -24,9 +22,9 @@ class EndScreenViewController: UIViewController {
     func chooseDescription(){
         switch identity {
         case "Pear":
-            justification = "Thicc"
+            DescriptionLabel.text = "Thicc"
         default:
-            justification = "Yeet"
+            DescriptionLabel.text = "Yeet"
         }
     }
     
