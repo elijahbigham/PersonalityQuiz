@@ -59,15 +59,15 @@ class ViewController: UIViewController {
     //Sets up the quiz based on the assigned values of the structs above
     func initializeQuiz(whichQuiz : Int){
         switch whichQuiz {
-        case 1:
-            //initialize stuff form another script
+        case 0:
+            shint = QuizShunt<FoodQuiz>()
             print(whichQuiz)
-        case 2:
-            //initialize other stuff from that script
+        case 1:
+            shint = QuizShunt<PhQuiz>()
             print(whichQuiz)
         default:
             //Say something bad happened
-            print(whichQuiz)
+            print("Quiz does not exist")
         }
     }
     
@@ -76,6 +76,7 @@ class ViewController: UIViewController {
         
         //init the quiz type temporarily
         shint = QuizShunt<FoodQuiz>()
+        shint = QuizShunt<PhQuiz>()
         //Initializes button array
         buttonArray = [Ans1, Ans2, Ans3, Ans4, Ans5, Ans6]
         //Calling this method to test basic functionallity of the game

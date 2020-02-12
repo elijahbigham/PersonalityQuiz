@@ -21,6 +21,9 @@ class EndScreenViewController: UIViewController {
     
     func chooseDescription(){
         switch identity {
+            
+        //FOOD QUIZ STUFF-------------------------------------------------------------------------------
+            
         case "Pear":
             DescriptionLabel.text = "You are one to spend time inside a lot, yet you are always down for interactions with your friends from time to time"
         case "Grape":
@@ -63,6 +66,9 @@ class EndScreenViewController: UIViewController {
             DescriptionLabel.text = "You appreciate consistancy and minimalist change. Starts projects, and has many ideas on how to finish"
         case "Coconut":
         DescriptionLabel.text = "You are very conserved. Expressing feelings has never been your thing, and you prefer to hide from the world."
+            
+        //PHQUIZ STUFF-------------------------------------------------------------------------------
+            
         default:
             DescriptionLabel.text = "A man has fallen into the river in Lego City. Start the new rescue helicopter. Hey! Build the helicopter And off to the rescue. Prepare the lifeline. Lower the stretcher And make the rescue. The new emergency collection from Lego City"
         }
