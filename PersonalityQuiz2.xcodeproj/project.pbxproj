@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		337E328823F431C200A74593 /* PhQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E328723F431C200A74593 /* PhQuiz.swift */; };
+		337E328A23F4BB0F00A74593 /* Art in Resources */ = {isa = PBXBuildFile; fileRef = 337E328923F4BB0F00A74593 /* Art */; };
 		512F8B6E23EDA7AA00869B85 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */; };
 		51A4093D23E86523001A6974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4093C23E86523001A6974 /* AppDelegate.swift */; };
 		51A4093F23E86523001A6974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4093E23E86523001A6974 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		337E328723F431C200A74593 /* PhQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhQuiz.swift; sourceTree = "<group>"; };
+		337E328923F4BB0F00A74593 /* Art */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Art; path = Assets.xcassets/Art; sourceTree = "<group>"; };
 		512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
 		51A4093923E86523001A6974 /* PersonalityQuiz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A4093C23E86523001A6974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */,
 				51A4094223E86523001A6974 /* Main.storyboard */,
 				51A4094523E86524001A6974 /* Assets.xcassets */,
+				337E328923F4BB0F00A74593 /* Art */,
 				51A4094723E86524001A6974 /* LaunchScreen.storyboard */,
 				51A4094A23E86524001A6974 /* Info.plist */,
 				C341BF9123EC583500E52B02 /* FoodQuiz.swift */,
@@ -136,6 +139,7 @@
 			files = (
 				51A4094923E86524001A6974 /* LaunchScreen.storyboard in Resources */,
 				51A4094623E86524001A6974 /* Assets.xcassets in Resources */,
+				337E328A23F4BB0F00A74593 /* Art in Resources */,
 				51A4094423E86523001A6974 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

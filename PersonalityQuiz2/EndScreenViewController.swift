@@ -15,7 +15,7 @@ class EndScreenViewController: UIViewController {
     var identity = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        identityLabel.text = "You are a \(identity)"
+        identityLabel.text = "\(identity)"
         chooseDescription()
     }
     
