@@ -289,13 +289,13 @@
                                     <constraint firstAttribute="height" constant="322" id="jXf-Sc-iUs"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are..." textAlignment="center" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpi-VH-YOf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are..." textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="mpi-VH-YOf">
                                 <rect key="frame" x="20" y="157" width="374" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="26V-5y-Hca"/>
                                     <constraint firstAttribute="height" constant="85" id="6fb-qp-fAf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -327,6 +327,7 @@
                     <connections>
                         <outlet property="DescriptionLabel" destination="U2t-Ck-uNc" id="Oqk-ke-PXk"/>
                         <outlet property="identityLabel" destination="mpi-VH-YOf" id="tm6-TZ-2Ry"/>
+                        <outlet property="outcomeImage" destination="dQ1-T7-QTT" id="FZ0-z5-XUW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s6q-2F-oCk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         
         //init the quiz type temporarily
         shint = QuizShunt<FoodQuiz>()
-        shint = QuizShunt<PhQuiz>()
+        //shint = QuizShunt<PhQuiz>()
         //Initializes button array
         buttonArray = [Ans1, Ans2, Ans3, Ans4, Ans5, Ans6]
         //Calling this method to test basic functionallity of the game
