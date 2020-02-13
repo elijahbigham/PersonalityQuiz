@@ -137,6 +137,7 @@ class EndScreenViewController: UIViewController {
         case "14":
             DescriptionLabel.text = "You have reached supreme status as an online figure, people know you so well. You follow all the trends, the ones you make and others. Has at least 1 million+ followers easily."
             self.outcomeImage.image = UIImage(named: "PhScale")
+            
         default:
             DescriptionLabel.text = "A man has fallen into the river in Lego City. Start the new rescue helicopter. Hey! Build the helicopter And off to the rescue. Prepare the lifeline. Lower the stretcher And make the rescue. The new emergency collection from Lego City"
             self.outcomeImage.image = UIImage(named: "FallenIntoRiver")
