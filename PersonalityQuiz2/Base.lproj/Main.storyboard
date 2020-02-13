@@ -10,7 +10,7 @@
         <!--Category View Controller-->
         <scene sceneID="RT0-sl-bd1">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="yau-uw-tJL" customClass="CategoryViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yau-uw-tJL" customClass="CategoryViewController" customModule="BuszFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Le-0X-Ngo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Emh-ir-D2H">
-                                <rect key="frame" x="55" y="56" width="304" height="59"/>
+                                <rect key="frame" x="55" y="83" width="304" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="59" id="EJd-JF-Jiy"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="304" id="Viv-Cs-xRd"/>
@@ -81,12 +81,12 @@
                             </constraint>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="L2G-Ry-xdm"/>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="dfO-sN-eXg"/>
-                            <constraint firstItem="Emh-ir-D2H" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-362.5" id="fcX-GP-qZP"/>
+                            <constraint firstItem="Emh-ir-D2H" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-335.5" id="fcX-GP-qZP"/>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="iA2-M8-1Ev"/>
                             <constraint firstItem="Q69-QA-CZd" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-136" id="r7d-Ui-KyW">
                                 <variation key="heightClass=compact-widthClass=regular" constant="48.5"/>
                             </constraint>
-                            <constraint firstItem="Emh-ir-D2H" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-157.5" id="vXG-GM-HzO"/>
+                            <constraint firstItem="Emh-ir-D2H" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-140.5" id="vXG-GM-HzO"/>
                             <constraint firstItem="Q69-QA-CZd" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="z7M-CN-CWA">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-208"/>
                             </constraint>
@@ -124,7 +124,7 @@
         <!--View Controller-->
         <scene sceneID="Y7W-2g-HhO">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="UQy-Bb-fNb" customClass="ViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UQy-Bb-fNb" customClass="ViewController" customModule="BuszFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="78Z-Gh-hcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -363,7 +363,7 @@
         <!--End Screen View Controller-->
         <scene sceneID="rTD-4b-YJH">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="UkD-B7-8hN" customClass="EndScreenViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UkD-B7-8hN" customClass="EndScreenViewController" customModule="BuszFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Bs-71-AcO" customClass="UILabel">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -396,7 +396,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pear.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dQ1-T7-QTT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FallenIntoRiver" translatesAutoresizingMaskIntoConstraints="NO" id="dQ1-T7-QTT">
                                 <rect key="frame" x="46" y="275" width="322" height="322"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="322" id="j1t-Lm-22d"/>
@@ -450,7 +450,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pear.jpeg" width="205" height="246"/>
+        <image name="FallenIntoRiver" width="1280" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="MPA-by-Lzo"/>

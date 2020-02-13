@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZV0-5i-WCo">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -8,28 +8,47 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="btQ-H4-n5D">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                <viewController id="ZV0-5i-WCo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H9c-g8-GBl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Personality Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgS-bS-aGs">
-                                <rect key="frame" x="143" y="274" width="124" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuizalityICON" translatesAutoresizingMaskIntoConstraints="NO" id="Krb-eF-4gT">
+                                <rect key="frame" x="57" y="247.5" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Fv7-G7-eGJ"/>
+                                    <constraint firstAttribute="width" constant="300" id="tx3-nB-Y1M"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BuszFeed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yY-G9-zuy">
+                                <rect key="frame" x="76.5" y="525" width="261" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="mxf-OO-vJQ"/>
+                                    <constraint firstAttribute="height" constant="101" id="p5W-RE-KX3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="49"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="Krb-eF-4gT" firstAttribute="centerY" secondItem="H9c-g8-GBl" secondAttribute="centerY" constant="-50.5" id="CTt-R3-6ak"/>
+                            <constraint firstItem="3yY-G9-zuy" firstAttribute="centerY" secondItem="H9c-g8-GBl" secondAttribute="centerY" constant="127.5" id="PfH-M7-hzD"/>
+                            <constraint firstItem="Krb-eF-4gT" firstAttribute="centerX" secondItem="H9c-g8-GBl" secondAttribute="centerX" id="RfE-aQ-yv7"/>
+                            <constraint firstItem="3yY-G9-zuy" firstAttribute="centerX" secondItem="H9c-g8-GBl" secondAttribute="centerX" id="pQs-nQ-XHa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WfB-bI-ITc"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IfR-Hn-PgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="189.85507246376812" y="116.51785714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="QuizalityICON" width="120" height="120"/>
+    </resources>
 </document>
