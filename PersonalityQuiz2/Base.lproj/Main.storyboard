@@ -10,8 +10,8 @@
         <!--Category View Controller-->
         <scene sceneID="RT0-sl-bd1">
             <objects>
-                <viewController id="yau-uw-tJL" customClass="CategoryViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5Le-0X-Ngo" customClass="view">
+                <viewController id="yau-uw-tJL" customClass="CategoryViewController" customModule="PersonalityQuiz2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Le-0X-Ngo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -29,6 +29,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="FoodQuizButtonPress:" destination="yau-uw-tJL" eventType="touchUpInside" id="h98-hz-wSN"/>
                                     <segue destination="UQy-Bb-fNb" kind="show" id="MPA-by-Lzo"/>
                                 </connections>
                             </button>
@@ -46,6 +47,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="pHQuizButtonPress:" destination="yau-uw-tJL" eventType="touchUpInside" id="fSk-B3-Juz"/>
                                     <segue destination="UQy-Bb-fNb" kind="show" id="kxZ-SX-1QR"/>
                                 </connections>
                             </button>
@@ -110,6 +112,10 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Nuv-fC-qvH"/>
+                    <connections>
+                        <outlet property="FoodQuizButton" destination="Q69-QA-CZd" id="Psy-Hd-eZo"/>
+                        <outlet property="pHQuizButton" destination="Gy2-Hr-mJF" id="ORB-Fa-eKY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ru0-qx-c7a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
