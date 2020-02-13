@@ -88,11 +88,55 @@ class EndScreenViewController: UIViewController {
             DescriptionLabel.text = "You appreciate consistancy and minimalist change. Starts projects, and has many ideas on how to finish"
             self.outcomeImage.image = UIImage(named: "Pizza")
         case "Coconut":
-        DescriptionLabel.text = "You are very conserved. Expressing feelings has never been your thing, and you prefer to hide from the world."
+            DescriptionLabel.text = "You are very conserved. Expressing feelings has never been your thing, and you prefer to hide from the world."
             self.outcomeImage.image = UIImage(named: "Coconut")
             
         //PHQUIZ STUFF-------------------------------------------------------------------------------
-            
+        case "0":
+            DescriptionLabel.text = "You are very different from almost anyone. You're interests include very obscure thigns that almost no one knows about, yet you find really enjoyable."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "1":
+            DescriptionLabel.text = "You are very different from almost anyone. You're interests include very obscure thigns that almost no one knows about, yet you find really enjoyable."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "2":
+            DescriptionLabel.text = "You find yourself to like very particular things, most of which are things most people don't know about or find interesting."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "3":
+            DescriptionLabel.text = "You find yourself to like very particular things, some of which are things most people don't know about or find interesting."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "4":
+            DescriptionLabel.text = "You find yourself to like your own things, not really into into mainstream things."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "5":
+            DescriptionLabel.text = "You like to keep up with certain trends, hoping to fit in, however it may not always turn out that way, so you stick with what you like."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "6":
+            DescriptionLabel.text = "You enjoy some of the mainstream things, but are more confortable with what you like, which isn't always that mainstream."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "7":
+            DescriptionLabel.text = "You are the most average person, you have a healthy mix of trendy, mainstream things, yet enjoy your own things from time-to-time."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "8":
+            DescriptionLabel.text = "You like to keep up with current events, having some online social life, just not as much as others."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "9":
+            DescriptionLabel.text = "You spend a lot of your time online and on social media, and you have a decent sized following."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "10":
+            DescriptionLabel.text = "You spend more time on social media than the average person, keeping up with today's trends to fit in and keep your status."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "11":
+            DescriptionLabel.text = "You follow almost any trend that exists, well known at your school and online. Has lots of followers and friends at school."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "12":
+            DescriptionLabel.text = "You are the definition of a trendsetter, people know you so well and are very popular."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "13":
+            DescriptionLabel.text = "You are a popular figure online, backed by some sort of community, practically make money off of it."
+            self.outcomeImage.image = UIImage(named: "PhScale")
+        case "14":
+            DescriptionLabel.text = "You have reached supreme status as an online figure, people know you so well. You follow all the trends, the ones you make and others. Has at least 1 million+ followers easily."
+            self.outcomeImage.image = UIImage(named: "PhScale")
         default:
             DescriptionLabel.text = "A man has fallen into the river in Lego City. Start the new rescue helicopter. Hey! Build the helicopter And off to the rescue. Prepare the lifeline. Lower the stretcher And make the rescue. The new emergency collection from Lego City"
             self.outcomeImage.image = UIImage(named: "FallenIntoRiver")
