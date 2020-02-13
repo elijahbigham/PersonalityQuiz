@@ -289,7 +289,7 @@
                                     <constraint firstAttribute="height" constant="322" id="jXf-Sc-iUs"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are..." textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="mpi-VH-YOf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THICC" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="mpi-VH-YOf">
                                 <rect key="frame" x="20" y="157" width="374" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="26V-5y-Hca"/>
