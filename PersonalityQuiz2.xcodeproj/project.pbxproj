@@ -147,12 +147,9 @@
 				337E32A123F519BA00A74593 /* LaunchScreen.storyboard in Resources */,
 				337E329623F5187700A74593 /* Main.storyboard in Resources */,
 				51A4094623E86524001A6974 /* Assets.xcassets in Resources */,
-<<<<<<< HEAD
 				337E328A23F4BB0F00A74593 /* Art in Resources */,
 				51A4094423E86523001A6974 /* Main.storyboard in Resources */,
 				4F6C1DBA23F50558005437E4 /* QuizalityICON.jpeg in Resources */,
-=======
->>>>>>> b6e4fd1778fae88e7bde8e3750a7d35a821721ec
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
