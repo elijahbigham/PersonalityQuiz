@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     var shint : Shunt?
     
     //Sets up the quiz based on the assigned values of the structs above
-    func initializeQuiz(whichQuiz : Int){
+    public func initializeQuiz(whichQuiz : Int){
         switch whichQuiz {
         case 0:
             shint = QuizShunt<FoodQuiz>()
@@ -73,10 +73,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //init the quiz type temporarily
-        shint = QuizShunt<FoodQuiz>()
-        shint = QuizShunt<PhQuiz>()
         //Initializes button array
         buttonArray = [Ans1, Ans2, Ans3, Ans4, Ans5, Ans6]
         //Calling this method to test basic functionallity of the game
