@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51A4093823E86523001A6974"
-               BuildableName = "PersonalityQuiz2.app"
+               BuildableName = "Quizality.app"
                BlueprintName = "PersonalityQuiz2"
                ReferencedContainer = "container:PersonalityQuiz2.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51A4093823E86523001A6974"
-            BuildableName = "PersonalityQuiz2.app"
+            BuildableName = "Quizality.app"
             BlueprintName = "PersonalityQuiz2"
             ReferencedContainer = "container:PersonalityQuiz2.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51A4093823E86523001A6974"
-            BuildableName = "PersonalityQuiz2.app"
+            BuildableName = "Quizality.app"
             BlueprintName = "PersonalityQuiz2"
             ReferencedContainer = "container:PersonalityQuiz2.xcodeproj">
          </BuildableReference>
