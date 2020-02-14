@@ -13,6 +13,7 @@ class CategoryViewController: UIViewController {
 
     @IBOutlet weak var FoodQuizButton: UIButton!
     @IBOutlet weak var pHQuizButton: UIButton!
+    @IBOutlet weak var consoleQuizButton: UIButton!
     
     var choice = -1
     
@@ -33,6 +34,10 @@ class CategoryViewController: UIViewController {
     @IBAction func pHQuizButtonPress(_ sender: Any) {
         choice = 1
     }
+    @IBAction func ConsoleQuizButtonPress(_ sender: Any) {
+        choice = 2
+    }
+    
     
 }
 

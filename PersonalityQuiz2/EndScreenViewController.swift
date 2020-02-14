@@ -75,7 +75,7 @@ class EndScreenViewController: UIViewController {
         case "Oregano":
             DescriptionLabel.text = "You enjoy making other people's lives better instead of your own, but not to an extreme extent. Mostly seems happy."
             self.outcomeImage.image = UIImage(named: "Oregano")
-        case "Egg Noodles":
+        case "Noodles":
             DescriptionLabel.text = "You try your best at everything, but sometimes things don't go so well."
             self.outcomeImage.image = UIImage(named: "Noodles")
         case "Waffle":
@@ -137,6 +137,48 @@ class EndScreenViewController: UIViewController {
         case "14":
             DescriptionLabel.text = "You have reached supreme status as an online figure, people know you so well. You follow all the trends, the ones you make and others. Has at least 1 million+ followers easily."
             self.outcomeImage.image = UIImage(named: "PhScale")
+            
+        //CONSOLE QUIZ STUFF-------------------------------------------------------------------------------------------------------------------------------
+        
+        case "PlayStation":
+            DescriptionLabel.text = "You are a follower by nature and try to be surrounded by friends at all times. You believe in strength in numbers and work very well in teams. You can also be a bit stubborn."
+            self.outcomeImage.image = UIImage(named: "PlayStation")
+        case "Nintendo Switch":
+            DescriptionLabel.text = "You are a jack of all trades, but a master of none. Your best quality is your ability to adapt to any situation. You are a role model to your peers, and always attract a crowd."
+            self.outcomeImage.image = UIImage(named: "NintendoSwitch")
+        case "GameBoy":
+            DescriptionLabel.text = "You appreciate the simple things in life. Your approach to solving problems is to avoid them alltogether. You tend to spend more time alone than with friends."
+            self.outcomeImage.image = UIImage(named: "GameBoy")
+        case "Wii":
+            DescriptionLabel.text = "You are a very active person. You often find it difficult to take a break, but this makes you very productive. Occasionally, you lose your grip and are forced to step back and take a break."
+            self.outcomeImage.image = UIImage(named: "Wii")
+        case "Mobile":
+            DescriptionLabel.text = "You are a jack of all trades, but a master of none. You focus on improving yourself, and spend most of your time with friends."
+            self.outcomeImage.image = UIImage(named: "Mobile")
+        case "Nintendo 3DS":
+            DescriptionLabel.text = "You are able to always see the good in things, and go out of your way to make other people feel welcome. You can find a reason to like almost anything."
+            self.outcomeImage.image = UIImage(named: "3DS")
+        case "Xbox":
+            DescriptionLabel.text = "You are a follower by nature and try to be surrounded by friends at all times. You believe in strength in numbers and work very well in teams, though you find it hard to admit when you are wrong."
+            self.outcomeImage.image = UIImage(named: "Xbox")
+        case "HTC Vive":
+            DescriptionLabel.text = "You are always looking for new experience and are not afraid to try new things. Your approach to a problem is to rush in head first rather than make a plan. This works out about half the time."
+            self.outcomeImage.image = UIImage(named: "Vive")
+        case "Oculus Rift":
+            DescriptionLabel.text = "You are always looking for new experience and are not afraid to try new things. Your approach to a problem is to rush in head first rather than make a plan. This works out about half the time."
+            self.outcomeImage.image = UIImage(named: "Oculus")
+        case "PC":
+            DescriptionLabel.text = "You are a cultured person who appreciates the complexity of things. You like to know exactly how something works, and how to make the most out of any situation. This mindset makes you an intelligent person, yet your know-how may confuse your peers."
+            self.outcomeImage.image = UIImage(named: "PC")
+        case "Atari":
+            DescriptionLabel.text = "You think games are a waste of time, and prefer to focus your energy on other things. Perhaps you tried video games once and were bad at them, or maybe you just don't have the time."
+            self.outcomeImage.image = UIImage(named: "Atari")
+        case "GameCube":
+            DescriptionLabel.text = "You are the definition of a casual gamer. You enjoy a bit of electronics here and there, but by no means would you consider it a hobby."
+            self.outcomeImage.image = UIImage(named: "GameCube")
+        case "Nintendo N64":
+            DescriptionLabel.text = "You appreciate the simple things in life. Your approach to solving problems is to avoid them alltogether. You tend to spend more time alone than with friends."
+            self.outcomeImage.image = UIImage(named: "N64")
             
         default:
             DescriptionLabel.text = "A man has fallen into the river in Lego City. Start the new rescue helicopter. Hey! Build the helicopter And off to the rescue. Prepare the lifeline. Lower the stretcher And make the rescue. The new emergency collection from Lego City"

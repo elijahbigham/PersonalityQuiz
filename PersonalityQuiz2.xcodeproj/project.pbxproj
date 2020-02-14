@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		337E328823F431C200A74593 /* PhQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E328723F431C200A74593 /* PhQuiz.swift */; };
+		337E328823F431C200A74593 /* pHQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E328723F431C200A74593 /* pHQuiz.swift */; };
 		337E329023F4FE6200A74593 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E328F23F4FE6200A74593 /* CategoryViewController.swift */; };
 		337E329623F5187700A74593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A4094223E86523001A6974 /* Main.storyboard */; };
 		337E32A123F519BA00A74593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A4094723E86524001A6974 /* LaunchScreen.storyboard */; };
+		337E32A423F6570C00A74593 /* ConsoleQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E32A323F6570C00A74593 /* ConsoleQuiz.swift */; };
 		512F8B6E23EDA7AA00869B85 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */; };
 		51A4093D23E86523001A6974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4093C23E86523001A6974 /* AppDelegate.swift */; };
 		51A4093F23E86523001A6974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4093E23E86523001A6974 /* SceneDelegate.swift */; };
@@ -20,11 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		337E328723F431C200A74593 /* PhQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhQuiz.swift; sourceTree = "<group>"; };
+		337E328723F431C200A74593 /* pHQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pHQuiz.swift; sourceTree = "<group>"; };
 		337E328F23F4FE6200A74593 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		337E329A23F518B500A74593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PersonalityQuiz2/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		337E32A323F6570C00A74593 /* ConsoleQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleQuiz.swift; sourceTree = "<group>"; };
 		512F8B6D23EDA7AA00869B85 /* EndScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
-		51A4093923E86523001A6974 /* BuszFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuszFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A4093923E86523001A6974 /* Quizality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A4093C23E86523001A6974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51A4093E23E86523001A6974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51A4094023E86523001A6974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		51A4093023E86523001A6974 = {
 			isa = PBXGroup;
 			children = (
-				337E329923F518B500A74593 /* LaunchScreen.storyboard */,
 				51A4093B23E86523001A6974 /* PersonalityQuiz2 */,
 				51A4093A23E86523001A6974 /* Products */,
 			);
@@ -58,7 +58,7 @@
 		51A4093A23E86523001A6974 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51A4093923E86523001A6974 /* BuszFeed.app */,
+				51A4093923E86523001A6974 /* Quizality.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,7 +76,8 @@
 				51A4094523E86524001A6974 /* Assets.xcassets */,
 				51A4094A23E86524001A6974 /* Info.plist */,
 				C341BF9123EC583500E52B02 /* FoodQuiz.swift */,
-				337E328723F431C200A74593 /* PhQuiz.swift */,
+				337E328723F431C200A74593 /* pHQuiz.swift */,
+				337E32A323F6570C00A74593 /* ConsoleQuiz.swift */,
 			);
 			path = PersonalityQuiz2;
 			sourceTree = "<group>";
@@ -98,7 +99,7 @@
 			);
 			name = PersonalityQuiz2;
 			productName = PersonalityQuiz2;
-			productReference = 51A4093923E86523001A6974 /* BuszFeed.app */;
+			productReference = 51A4093923E86523001A6974 /* Quizality.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,12 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337E32A423F6570C00A74593 /* ConsoleQuiz.swift in Sources */,
 				512F8B6E23EDA7AA00869B85 /* EndScreenViewController.swift in Sources */,
 				51A4094123E86523001A6974 /* ViewController.swift in Sources */,
 				337E329023F4FE6200A74593 /* CategoryViewController.swift in Sources */,
 				51A4093D23E86523001A6974 /* AppDelegate.swift in Sources */,
 				C341BF9223EC583500E52B02 /* FoodQuiz.swift in Sources */,
-				337E328823F431C200A74593 /* PhQuiz.swift in Sources */,
+				337E328823F431C200A74593 /* pHQuiz.swift in Sources */,
 				51A4093F23E86523001A6974 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		337E329923F518B500A74593 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				337E329A23F518B500A74593 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		51A4094223E86523001A6974 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -318,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GreenHam.PersonalityQuiz2;
-				PRODUCT_NAME = BuszFeed;
+				PRODUCT_NAME = Quizality;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GreenHam.PersonalityQuiz2;
-				PRODUCT_NAME = BuszFeed;
+				PRODUCT_NAME = Quizality;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

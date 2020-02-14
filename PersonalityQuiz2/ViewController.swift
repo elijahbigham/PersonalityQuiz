@@ -63,8 +63,10 @@ class ViewController: UIViewController {
             shint = QuizShunt<FoodQuiz>()
             print(whichQuiz)
         case 1:
-            shint = QuizShunt<PhQuiz>()
+            shint = QuizShunt<pHQuiz>()
             print(whichQuiz)
+        case 2:
+            shint = QuizShunt<ConsoleQuiz>()
         default:
             //Say something bad happened
             print("Quiz does not exist")

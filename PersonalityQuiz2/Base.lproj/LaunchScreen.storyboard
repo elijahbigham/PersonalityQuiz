@@ -22,8 +22,8 @@
                                     <constraint firstAttribute="width" constant="300" id="tx3-nB-Y1M"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BuszFeed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yY-G9-zuy">
-                                <rect key="frame" x="76.5" y="525" width="261" height="101"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quizality" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yY-G9-zuy">
+                                <rect key="frame" x="77" y="531" width="261" height="101"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="261" id="mxf-OO-vJQ"/>
                                     <constraint firstAttribute="height" constant="101" id="p5W-RE-KX3"/>
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Krb-eF-4gT" firstAttribute="centerY" secondItem="H9c-g8-GBl" secondAttribute="centerY" constant="-50.5" id="CTt-R3-6ak"/>
-                            <constraint firstItem="3yY-G9-zuy" firstAttribute="centerY" secondItem="H9c-g8-GBl" secondAttribute="centerY" constant="127.5" id="PfH-M7-hzD"/>
+                            <constraint firstItem="3yY-G9-zuy" firstAttribute="centerY" secondItem="H9c-g8-GBl" secondAttribute="centerY" constant="133.5" id="PfH-M7-hzD"/>
                             <constraint firstItem="Krb-eF-4gT" firstAttribute="centerX" secondItem="H9c-g8-GBl" secondAttribute="centerX" id="RfE-aQ-yv7"/>
                             <constraint firstItem="3yY-G9-zuy" firstAttribute="centerX" secondItem="H9c-g8-GBl" secondAttribute="centerX" id="pQs-nQ-XHa"/>
                         </constraints>

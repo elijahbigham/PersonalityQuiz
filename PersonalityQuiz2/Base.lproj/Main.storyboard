@@ -15,35 +15,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Q69-QA-CZd">
-                                <rect key="frame" x="69.5" y="174.5" width="275" height="275"/>
-                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="275" id="CNb-DM-SWE"/>
-                                    <constraint firstAttribute="width" constant="275" id="fnU-Uk-agL">
-                                        <variation key="heightClass=compact-widthClass=regular" constant="360"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
-                                <state key="normal" title="What Food Are You?">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="FoodQuizButtonPress:" destination="yau-uw-tJL" eventType="touchUpInside" id="h98-hz-wSN"/>
-                                    <segue destination="UQy-Bb-fNb" kind="show" id="MPA-by-Lzo"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Gy2-Hr-mJF">
-                                <rect key="frame" x="69.5" y="511.5" width="275" height="275"/>
+                                <rect key="frame" x="20" y="387" width="374" height="215"/>
                                 <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="275" id="NMj-xp-vau"/>
-                                    <constraint firstAttribute="width" constant="275" id="UNC-Kf-Ejr">
-                                        <variation key="heightClass=compact-widthClass=regular" constant="360"/>
+                                    <constraint firstAttribute="height" constant="215" id="NMj-xp-vau">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="289"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="374" id="UNC-Kf-Ejr">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="259"/>
                                     </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
-                                <state key="normal" title="What Are You on the Ph Scale?">
+                                <state key="normal" title="What Are You on the pH Scale?">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -69,26 +53,72 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fRg-45-vnt">
+                                <rect key="frame" x="20" y="610" width="374" height="215"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="7mo-aj-DM2">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="259"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="215" id="hdx-DZ-YML">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="289"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="What Video Game Console Are You?">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="ConsoleQuizButtonPress:" destination="yau-uw-tJL" eventType="touchUpInside" id="5rq-GL-mbb"/>
+                                    <segue destination="UQy-Bb-fNb" kind="show" id="JiL-Ud-PT2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Q69-QA-CZd">
+                                <rect key="frame" x="20" y="164" width="374" height="215"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="CNb-DM-SWE">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="289"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="374" id="fnU-Uk-agL">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="259"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="What Food Are You?">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="FoodQuizButtonPress:" destination="yau-uw-tJL" eventType="touchUpInside" id="h98-hz-wSN"/>
+                                    <segue destination="UQy-Bb-fNb" kind="show" id="MPA-by-Lzo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" id="AmI-kO-r7r"/>
-                            <constraint firstItem="Gy2-Hr-mJF" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="201" id="BOK-D0-gX0">
-                                <variation key="heightClass=compact-widthClass=regular" constant="48.5"/>
+                            <constraint firstItem="Gy2-Hr-mJF" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="46.5" id="BOK-D0-gX0">
+                                <variation key="heightClass=compact-widthClass=regular" constant="41.5"/>
                             </constraint>
                             <constraint firstItem="Gy2-Hr-mJF" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="BRh-MZ-tJO">
-                                <variation key="heightClass=compact-widthClass=regular" constant="208"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.5"/>
                             </constraint>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="L2G-Ry-xdm"/>
+                            <constraint firstItem="fRg-45-vnt" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="NxF-oK-qMm">
+                                <variation key="heightClass=compact-widthClass=regular" constant="267.5"/>
+                            </constraint>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="dfO-sN-eXg"/>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-335.5" id="fcX-GP-qZP"/>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="iA2-M8-1Ev"/>
-                            <constraint firstItem="Q69-QA-CZd" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-136" id="r7d-Ui-KyW">
-                                <variation key="heightClass=compact-widthClass=regular" constant="48.5"/>
+                            <constraint firstItem="Q69-QA-CZd" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-176.5" id="r7d-Ui-KyW">
+                                <variation key="heightClass=compact-widthClass=regular" constant="41.5"/>
                             </constraint>
                             <constraint firstItem="Emh-ir-D2H" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="-140.5" id="vXG-GM-HzO"/>
+                            <constraint firstItem="fRg-45-vnt" firstAttribute="centerY" secondItem="5Le-0X-Ngo" secondAttribute="centerY" constant="269.5" id="y2C-JF-htA">
+                                <variation key="heightClass=compact-widthClass=regular" constant="41.5"/>
+                            </constraint>
                             <constraint firstItem="Q69-QA-CZd" firstAttribute="centerX" secondItem="5Le-0X-Ngo" secondAttribute="centerX" id="z7M-CN-CWA">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-208"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-266.5"/>
                             </constraint>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="clM-rh-aaR"/>
@@ -114,12 +144,13 @@
                     <navigationItem key="navigationItem" id="Nuv-fC-qvH"/>
                     <connections>
                         <outlet property="FoodQuizButton" destination="Q69-QA-CZd" id="Psy-Hd-eZo"/>
-                        <outlet property="pHQuizButton" destination="Gy2-Hr-mJF" id="ORB-Fa-eKY"/>
+                        <outlet property="consoleQuizButton" destination="fRg-45-vnt" id="GBA-0Y-bGH"/>
+                        <outlet property="pHQuizButton" destination="Gy2-Hr-mJF" id="mDV-ea-Mkt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ru0-qx-c7a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5216.5178571428569" y="-3430.434782608696"/>
+            <point key="canvasLocation" x="-5219.1964285714284" y="-3431.884057971015"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y7W-2g-HhO">
