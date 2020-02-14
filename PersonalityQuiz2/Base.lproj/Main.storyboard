@@ -10,7 +10,7 @@
         <!--Category View Controller-->
         <scene sceneID="RT0-sl-bd1">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="yau-uw-tJL" customClass="CategoryViewController" customModule="BuszFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yau-uw-tJL" customClass="CategoryViewController" customModule="Quizality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Le-0X-Ngo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,7 +155,7 @@
         <!--View Controller-->
         <scene sceneID="Y7W-2g-HhO">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="UQy-Bb-fNb" customClass="ViewController" customModule="BuszFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UQy-Bb-fNb" customClass="ViewController" customModule="Quizality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="78Z-Gh-hcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,7 +171,7 @@
                                         <variation key="heightClass=compact-widthClass=regular" constant="245"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <state key="normal" title="Ans1">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -190,7 +190,7 @@
                                         <variation key="heightClass=compact-widthClass=regular" constant="245"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <state key="normal" title="Ans2">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -211,7 +211,7 @@
                                     </constraint>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="245" id="mqX-Q8-Yxh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <state key="normal" title="Ans4">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -242,7 +242,7 @@
                                         <variation key="heightClass=compact-widthClass=regular" constant="120"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <state key="normal" title="Ans5">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -261,7 +261,7 @@
                                         <variation key="heightClass=compact-widthClass=regular" constant="245"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <state key="normal" title="Ans6">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -280,7 +280,7 @@
                                         <variation key="heightClass=compact-widthClass=regular" constant="245"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <state key="normal" title="Ans3">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -394,7 +394,7 @@
         <!--End Screen View Controller-->
         <scene sceneID="rTD-4b-YJH">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="UkD-B7-8hN" customClass="EndScreenViewController" customModule="BuszFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UkD-B7-8hN" customClass="EndScreenViewController" customModule="Quizality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Bs-71-AcO" customClass="UILabel">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
